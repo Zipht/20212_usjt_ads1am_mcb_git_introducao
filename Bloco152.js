@@ -5,7 +5,7 @@ const nomes = [
   "Humberto Silva",
 ];
 
-const apenasComE = nomes.filter((n) => n.startsWith("H"));
+const apenasComE = nomes.filter((n) => n.startsWith("R"));
 console.log(apenasComE);
 
 const primeiras = nomes.map((n) => n.charAt(0));
